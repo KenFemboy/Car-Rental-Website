@@ -1,0 +1,4 @@
+-terminal
+- cd car-rental-website
+- npm run dev
+-open browser

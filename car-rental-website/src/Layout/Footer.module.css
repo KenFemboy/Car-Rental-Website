@@ -1,0 +1,17 @@
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 10px;
+}
+
+footer div a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+footer div img {
+    margin: 0px 20px;
+}
