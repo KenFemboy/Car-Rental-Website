@@ -1,52 +1,56 @@
 import styles from './Main.module.css'
+import svg from './test.svg'
 function Main() {
     return (
-        <div className={styles.main}>
-            <div className={styles.introText}>
-                <h1>
-                    Rent our well maintained cars at the best price
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magni officiis debitis blanditiis
-                </p>
-            </div>
-
-            <div>
-                <button>Rent Now</button>
-                <button>Browse Cars</button>
-            </div>
-
-            <div className={styles.userInput}>
-
-
-                <div>
-                    <p>Your Contact</p>
-                    <input type="number"></input>
-                </div>
-                <div>
-                    <p>Pick Up Date</p>
-                    <input type="date"></input>
-                </div>
-                <div>
-                    <p>Return Date</p>
-                    <input type="date"></input>
+        <div>
+            <div className={styles.main}>
+                <div className={styles.introText}>
+                    <h1>
+                        Rent our well maintained cars at the best price
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magni officiis debitis blanditiis
+                    </p>
                 </div>
 
                 <div>
-                    <button type="submit">Submit</button>
-
+                    <button>Rent Now</button>
+                    <button>Browse Cars</button>
                 </div>
 
+                <div className={styles.userInput}>
 
+
+                    <div>
+                        <p>Your Contact</p>
+                        <input type="number" name='contactNumber' className={styles.getuserInput} placeholder='Enter Contact Number'></input>
+                    </div>
+                    <div>
+                        <p>Pick Up Date</p>
+                        <button className={styles.getuserInput}>Select Pickup Date</button>
+
+
+                    </div>
+                    <div>
+                        <p>Return Date</p>
+                        <button className={styles.getuserInput}>Select Return Date</button>
+                    </div>
+
+                    <div>
+                        <button type="submit">SUBMIT</button>
+
+                    </div>
+
+
+                </div>
             </div>
 
             <div className={styles.carBrands}>
-                <img src="https://placehold.co/150" alt="" />
-                <img src="https://placehold.co/150" alt="" />
-                <img src="https://placehold.co/150" alt="" />
-                <img src="https://placehold.co/150" alt="" />
-                <img src="https://placehold.co/150" alt="" />
-                <img src="https://placehold.co/150" alt="" />
+                <img src={svg} alt="" />
+
+
+
+
 
             </div>
 
