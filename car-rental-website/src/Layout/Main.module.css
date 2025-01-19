@@ -48,7 +48,7 @@
 .userInput input {
     height: 60px;
     padding: 0px 20px;
-    color: hsl(223, 7%, 29%);
+    color: white;
 }
 
 .userInput div button[type="submit"] {
@@ -80,8 +80,9 @@ input::-webkit-inner-spin-button {
 }
 
 .carBrands img {
-    width: 100px;
-    height: 100px;
+    height: 150px;
+    filter: grayscale(100%);
+    margin: 10px;
 }
 
 .infoSection {

@@ -1,5 +1,6 @@
 import styles from './Main.module.css'
-import svg from './test.svg'
+import icons from './icons.jsx'
+
 function Main() {
     return (
         <div>
@@ -46,7 +47,19 @@ function Main() {
             </div>
 
             <div className={styles.carBrands}>
-                <img src={svg} alt="" />
+                <img src={icons.bmw} alt="" />
+                <img src={icons.honda} alt="" />
+                <img src={icons.mercedes} alt="" />
+                <img src={icons.mitsubishi} alt="" />
+                <img src={icons.toyota} alt="" />
+
+
+
+
+
+
+
+
 
 
 
