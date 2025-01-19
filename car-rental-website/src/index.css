@@ -1,11 +1,6 @@
 body {
   background-color: hsl(228, 100%, 0%);
-  background-image: url(.\assets\cars-img\land-cruiser.png);
-  background-repeat: no-repeat;
-  background-position: top 5% right -300px;
-  background-size: 80%;
   margin: 0;
-
 
 
 }

@@ -12,6 +12,7 @@ function Main() {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magni officiis debitis blanditiis
                     </p>
+
                 </div>
 
                 <div>
