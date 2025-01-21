@@ -24,12 +24,10 @@ h1 {
 button {
   width: 200px;
   height: 50px;
-  margin: 10px;
   border-radius: 10px;
   border: whitesmoke solid 1px;
   background-color: transparent;
   cursor: pointer;
-  margin: 0px 20px;
 }
 
 button:hover {

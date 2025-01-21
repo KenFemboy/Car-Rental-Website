@@ -15,7 +15,7 @@ function Main() {
 
                 </div>
 
-                <div>
+                <div className={styles.mainButton}>
                     <button>Rent Now</button>
                     <button>Browse Cars</button>
                 </div>
@@ -75,7 +75,7 @@ function Main() {
                     <div>
                         <img src="https://placehold.co/80" alt="" />
                         <h4>Contact</h4>
-                        <p>qverqvreqvqvqv  saasdasdasdasdasadadsdasdadasdsadas evrwvdsfvafdvdffvas</p>
+                        <p>qverqvreqvqvqv  saasdasdas dasdasa dadsdasd adasdsadas evrwvdsfv afdvdffvas</p>
                     </div>
 
                     <div>
