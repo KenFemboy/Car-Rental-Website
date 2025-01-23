@@ -1,7 +1,7 @@
 .main {
     margin: 20px 30px;
     padding: 50px;
-    background-image: url(./src/assets/cars-img/land-cruiser.png);
+    background-image: url(./land-cruiser.png);
     background-repeat: no-repeat;
     background-position: top 20px right -50px;
     background-size: 60%;
