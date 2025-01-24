@@ -1,7 +1,7 @@
 import styles from './Header.module.css'
 function Header() {
     return (
-        <nav>
+        <nav className={styles.nav}>
             <img src="https://placehold.co/100x50" alt="" />
             <h3>Rent</h3>
             <h3>Locations</h3>

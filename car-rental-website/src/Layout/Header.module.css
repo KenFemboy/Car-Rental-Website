@@ -1,4 +1,4 @@
-nav {
+.nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,11 +9,11 @@ nav {
 
 }
 
-nav img {
+.nav img {
     margin: 0px 80px;
 }
 
-nav h3 {
+.nav h3 {
     margin: 30px 80px;
     cursor: pointer;
 }

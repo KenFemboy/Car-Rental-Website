@@ -1,7 +1,7 @@
 import styles from './Footer.module.css'
 function Footer() {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <div>
                 <img src="https://placehold.co/100x50" alt="wesite logo" />
                 <p>Tagum Car Rental</p>
