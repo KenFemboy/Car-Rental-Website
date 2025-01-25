@@ -15,7 +15,7 @@ function App() {
 
         <Router>
           <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="Car-Rental-Website/" element={<Main />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </Router>
