@@ -1,0 +1,23 @@
+.errorpage {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: red;
+}

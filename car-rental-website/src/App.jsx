@@ -1,7 +1,8 @@
-import Header from "./Layout/Header"
-import Footer from "./Layout/Footer"
-import Main from "./Layout/Main"
-
+import Header from "./Layout/Components/Header"
+import Footer from "./Layout/Components/Footer"
+import Main from "./Layout/Components/Main"
+import ErrorPage from "./Layout/ErrorPage"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
 
@@ -11,7 +12,15 @@ function App() {
 
       <div>
         <Header />
-        <Main />
+
+        <Router>
+          <Routes>
+            <Route path="Car-Rental-Website/" element={<Main />} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
+        </Router>
+
+
         <Footer />
 
       </div>
