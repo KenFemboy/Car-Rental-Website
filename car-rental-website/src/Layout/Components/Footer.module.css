@@ -15,4 +15,10 @@
 
 .footer div img {
     margin: 0px 20px;
+    width: 60px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
 }

@@ -16,4 +16,9 @@
 .nav h3 {
     margin: 30px 80px;
     cursor: pointer;
+
+}
+
+.nav a {
+    text-decoration: none;
 }

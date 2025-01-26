@@ -1,4 +1,5 @@
 import styles from './Footer.module.css'
+import icons from './icons.jsx'
 function Footer() {
     return (
         <footer className={styles.footer}>
@@ -20,14 +21,16 @@ function Footer() {
                 <a>Our Locations</a>
             </div>
 
-            <div>
+            <div >
                 <h4>Our Socials</h4>
-                <img src="https://placehold.co/60" alt="" />
-                <img src="https://placehold.co/60" alt="" />
-                <img src="https://placehold.co/60" alt="" />
+                <div className={styles.socials}>
+                    <a href=''><img src={icons.facebook} alt="" /></a>
+                    <a href=''><img src={icons.instagram} alt="" /></a>
+                    <a href=''><img src={icons.tiktok} alt="" /></a>
+                </div>
 
             </div>
-        </footer>
+        </footer >
     )
 }
 export default Footer

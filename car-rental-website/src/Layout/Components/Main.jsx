@@ -54,18 +54,6 @@ function Main() {
                 <img src={icons.mitsubishi} alt="" />
                 <img src={icons.toyota} alt="" />
 
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
 
             <div className={styles.infoSection}>
@@ -73,19 +61,19 @@ function Main() {
                 <div className={styles.Cards}>
 
                     <div>
-                        <img src="https://placehold.co/80" alt="" />
-                        <h4>Contact</h4>
+                        <img src={icons.calendar_icon} alt="" />
+                        <h4>Schedule</h4>
                         <p>qverqvreqvqvqv  saasdasdas dasdasa dadsdasd adasdsadas evrwvdsfv afdvdffvas</p>
                     </div>
 
                     <div>
-                        <img src="https://placehold.co/80" alt="" />
+                        <img src={icons.location_icon} alt="" />
                         <h4>Pick Up</h4>
                         <p>vqerveqr vqweveqvreqrv</p>
                     </div>
 
                     <div>
-                        <img src="https://placehold.co/80" alt="" />
+                        <img src={icons.bookacar_icon} alt="" />
                         <h4>Choose Your Ride</h4>
                         <p>adadaf qrqwerqww rvqrqrev    </p>
                     </div>
