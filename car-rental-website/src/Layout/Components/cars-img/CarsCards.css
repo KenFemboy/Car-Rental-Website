@@ -11,6 +11,10 @@
 
 }
 
+.carscards>img {
+    width: 300px;
+}
+
 .carscards>p {
     background-color: hsl(220, 28%, 9%);
     width: 100%;
@@ -31,7 +35,9 @@
 }
 
 .carscards .carInfo div img {
-    margin: 0px 10px
+    margin: 10px 10px;
+    width: 30px;
+    height: 30px;
 }
 
 

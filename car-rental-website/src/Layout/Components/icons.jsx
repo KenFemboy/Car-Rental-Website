@@ -14,8 +14,18 @@ import location_icon from './icons/location.png'
 import calendar_icon from './icons/calendar.png'
 import bookacar_icon from './icons/bookacar.png'
 
+//cars
+
+import land_cruiser from './cars-img/land-cruiser.png'
+import m3 from './cars-img/m3.png'
+import hiace from './cars-img/hiace.png'
+
+
+
 export default {
     bmw, toyota, honda, mercedes, mitsubishi,
     facebook, instagram, tiktok,
     location_icon, calendar_icon, bookacar_icon
+    , land_cruiser, m3, hiace
+
 }
