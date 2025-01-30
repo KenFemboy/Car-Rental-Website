@@ -1,6 +1,7 @@
 .carscards {
     background-color: hsl(216, 18%, 11%);
     padding-top: 30px;
+
     width: 300px;
     margin: 10px;
     display: flex;
@@ -11,8 +12,10 @@
 
 }
 
+
 .carscards>img {
-    width: 300px;
+
+    max-height: 100px;
 }
 
 .carscards>p {

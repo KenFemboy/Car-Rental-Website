@@ -19,6 +19,7 @@ import bookacar_icon from './icons/bookacar.png'
 import land_cruiser from './cars-img/land-cruiser.png'
 import m3 from './cars-img/m3.png'
 import hiace from './cars-img/hiace.png'
+import mercedes_sedan from './cars-img/mercedes_sedan.png'
 
 
 
@@ -26,6 +27,6 @@ export default {
     bmw, toyota, honda, mercedes, mitsubishi,
     facebook, instagram, tiktok,
     location_icon, calendar_icon, bookacar_icon
-    , land_cruiser, m3, hiace
+    , land_cruiser, m3, hiace, mercedes_sedan
 
 }
