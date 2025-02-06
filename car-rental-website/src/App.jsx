@@ -8,12 +8,9 @@ function App() {
     <>
 
       <div>
-
-        <Router>
-          <Routes>
-
-          </Routes>
-        </Router>
+        <p>Button</p>
+        <input type="date" name="calendar" id="" />
+        <button>Click me</button>
 
       </div>
 
