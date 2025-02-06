@@ -17,6 +17,7 @@ function App() {
           <Header />
 
           <Routes>
+            <Route path="/Car-Rental-Website" element={<Main />} />
             <Route path="/" element={<Main />} />
             <Route path="/Rentals/" element={<Rentals />} />
             <Route path="*" element={<ErrorPage />} />

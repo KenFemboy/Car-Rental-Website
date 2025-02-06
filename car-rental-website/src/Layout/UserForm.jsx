@@ -1,30 +1,42 @@
 import './UserForm.css'
+
 function UserForm() {
+    const today = new Date().toISOString().split("T")[0];
+
+    const maxDate = (monthsToAdd) => {
+        const futureDate = new Date();
+        futureDate.setMonth(futureDate.getMonth() + monthsToAdd);
+        return futureDate.toISOString().split("T")[0];
+    };
+
     return (
+
         <div className="userInput">
-            <div>
-                <p>Your Contact</p>
-                <input type="number" name='contactNumber' className="getuserInput" placeholder='Enter Contact Number'></input>
-            </div>
-            <div>
-                <p>Pick Up Date</p>
-                <button className="getuserInput" onClick={() => document.getElementById('calendar').showPicker()}><input type="date" id="calendar" name="pickupDate"></input>Pickup Date</button>
 
 
 
-            </div>
-            <div>
-                <p>Return Date</p>
-                <button className="getuserInput" onClick={() => document.getElementById('calendar').showPicker()}><input type="date" id="calendar" name="returnDAte"></input>Return Date</button>
-            </div>
+            <label>Your Contact</label>
+            <input type="number" name='contactNumber' placeholder='Enter Contact Number'></input>
 
-            <div>
-                <button type="submit">SUBMIT</button>
-
-            </div>
+            <label>Pick Up Date</label>
+            <input type="date" id="calendar" name="pickupDate" min={today} max={maxDate(2)}></input>
 
 
-        </div>
+
+
+
+            <label>Return Date</label>
+            <input type="date" id="calendar" name="returnDate" min={today} max={maxDate(4)}></input>
+
+
+
+            <button type="submit">SUBMIT</button>
+
+
+
+
+
+        </div >
     )
 }
 export default UserForm

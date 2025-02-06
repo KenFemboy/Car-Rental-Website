@@ -19,57 +19,13 @@
 
 
 
-.userInput {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    border-radius: 20px;
-    background-color: hsl(216, 18%, 10%);
-    margin: 80px 0px;
-    padding: 20px;
-    justify-content: space-evenly;
-
-}
-
-.userInput div {
-
-    margin: 30px;
-    text-align: center;
-}
 
 
 
 
 
 
-.getuserInput {
-    color: hsl(223, 7%, 29%);
-    height: 70px;
-    border: hsl(223, 7%, 29%) 1px solid;
-    border-radius: 10px;
-    background-color: transparent;
-    margin: 30px 0px;
 
-}
-
-.userInput input {
-    height: 60px;
-    padding: 0px 20px;
-    color: white;
-}
-
-.getuserInput input {
-    display: none;
-}
-
-.userInput div button[type="submit"] {
-    background-color: hsl(232, 15%, 18%);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 30px;
-}
 
 
 
