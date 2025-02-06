@@ -1,8 +1,8 @@
-import styles from './Footer.module.css'
+import './Footer.css'
 import icons from './icons.jsx'
 function Footer() {
     return (
-        <footer className={styles.footer}>
+        <footer className="footer">
             <div>
                 <img src="https://placehold.co/100x50" alt="wesite logo" />
                 <p>Tagum Car Rental</p>
@@ -23,7 +23,7 @@ function Footer() {
 
             <div >
                 <h4>Our Socials</h4>
-                <div className={styles.socials}>
+                <div className="socials">
                     <a href=''><img src={icons.facebook} alt="" /></a>
                     <a href=''><img src={icons.instagram} alt="" /></a>
                     <a href=''><img src={icons.tiktok} alt="" /></a>

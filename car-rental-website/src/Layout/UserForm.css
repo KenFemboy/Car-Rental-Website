@@ -1,0 +1,28 @@
+.userInput input {
+    height: 100px;
+    padding: 0px 20px;
+    color: white;
+    font-size: 3vh
+}
+
+.getuserInput {
+    color: hsl(223, 7%, 29%);
+    height: 100px;
+    border: hsl(223, 7%, 29%) 1px solid;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 30px 0px;
+
+}
+
+.getuserInput input {
+    display: none;
+}
+
+.userInput div button[type="submit"] {
+    background-color: hsl(232, 15%, 18%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
