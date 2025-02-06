@@ -11,24 +11,18 @@ function UserForm() {
 
     return (
 
-        <div className="userInput">
+        <form className="userInput">
 
 
 
             <label>Your Contact</label>
-            <input type="number" name='contactNumber' placeholder='Enter Contact Number'></input>
+            <input type="tel" name='contactNumber' placeholder='Enter Contact Number' maxLength="11" required></input>
 
             <label>Pick Up Date</label>
             <input type="date" id="calendar" name="pickupDate" min={today} max={maxDate(2)}></input>
 
-
-
-
-
             <label>Return Date</label>
             <input type="date" id="calendar" name="returnDate" min={today} max={maxDate(4)}></input>
-
-
 
             <button type="submit">SUBMIT</button>
 
@@ -36,7 +30,7 @@ function UserForm() {
 
 
 
-        </div >
+        </form >
     )
 }
 export default UserForm
