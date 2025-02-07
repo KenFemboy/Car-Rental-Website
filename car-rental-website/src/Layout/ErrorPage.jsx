@@ -5,7 +5,7 @@ function ErrorPage() {
         <>
             <div className='errorpage'>
                 <h1>Ooops an Error Occured</h1>
-                <NavLink to="/Car-Rental"><a>Click here to Go Back</a></NavLink>
+                <NavLink to="/Car-Rental"><a>Click here to Go</a></NavLink>
             </div>
         </>
     )
