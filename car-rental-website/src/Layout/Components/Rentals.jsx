@@ -5,7 +5,7 @@ import icons from "./icons"
 function Rentals() {
     return (
 
-        <div className="Rentals">
+        <div className="Rentals" >
             <div className="RentalsInfo">
 
                 <img src={icons.mercedes_sedan} />
@@ -42,7 +42,7 @@ function Rentals() {
                 <h2>Our Featured Cars</h2>
             </div>
 
-            <div id="carsDisplay">
+            <div id="carsDisplay" >
                 <CarsCards carname="Land Cruiser" carimg={icons.land_cruiser} price="3000" cartype="SUV" cardoor="4" carseat="4" cargas="Gas/Petrol" />
                 <CarsCards carname="M3" carimg={icons.m3} price="5000" cartype="Sedan" cardoor="4" carseat="4" cargas="Gas/Petrol" />
                 <CarsCards carname="Hiace" carimg={icons.hiace} price="5000" cartype="SUV" cardoor="4" carseat="8" cargas="Diesel" />

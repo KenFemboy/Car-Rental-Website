@@ -1,7 +1,10 @@
 import './Main.css'
 import icons from './icons.jsx'
-import UserForm from '../UserForm.jsx'
+
 function Main() {
+    function scrollTo( id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth'});
+    }
 
     return (
         <div>
@@ -17,14 +20,14 @@ function Main() {
                 </div>
 
                 <div className="mainButton">
-                    <button>Rent Now</button>
-                    <button>Browse Cars</button>
+                    <button onClick={() => scrollTo('form')}>Rent Now</button>
+                    <button onClick={() => scrollTo('carsDisplay')}>Browse Cars</button>
                 </div>
 
 
 
             </div>
-            <div className="carBrands">
+            <div className="carBrands" >
                 <img src={icons.bmw} alt="" />
                 <img src={icons.honda} alt="" />
                 <img src={icons.mercedes} alt="" />
@@ -33,7 +36,6 @@ function Main() {
 
             </div>
 
-            <UserForm />
 
             <div className="infoSection">
                 <h2>How it works</h2>
@@ -42,19 +44,19 @@ function Main() {
                     <div>
                         <img src={icons.calendar_icon} alt="" />
                         <h4>Schedule</h4>
-                        <p>qverqvreqvqvqv  saasdasdas dasdasa dadsdasd adasdsadas evrwvdsfv afdvdffvas</p>
+                        <p>Set an appointment with us. Schedule your ride for as long as it takes.</p>
                     </div>
 
                     <div>
                         <img src={icons.location_icon} alt="" />
                         <h4>Pick Up</h4>
-                        <p>vqerveqr vqweveqvreqrv</p>
+                        <p>You can choose to pick up your ride on our closest location or choose to have it delivered for you</p>
                     </div>
 
                     <div>
                         <img src={icons.bookacar_icon} alt="" />
                         <h4>Choose Your Ride</h4>
-                        <p>adadaf qrqwerqww rvqrqrev    </p>
+                        <p>Pick whats suitable for you. We prioritize your safety, comfort and satisfaction</p>
                     </div>
 
                 </div>

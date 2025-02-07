@@ -1,9 +1,13 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: hsl(228, 100%, 0%);
   margin: 0;
 
 
 }
+
 
 
 body::-webkit-scrollbar {
