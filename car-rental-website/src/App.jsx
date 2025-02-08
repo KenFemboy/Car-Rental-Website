@@ -13,14 +13,13 @@ function App() {
     <>
 
       <div>
-
         <Router>
-          <Header />
 
           <Routes>
             <Route path="/Car-Rental-Website" element={<Navigate to="/Car-Rental" replace/>}></Route>
             <Route path="/Car-Rental" element={
             <> 
+              <Header />
               <Main />
               <Rentals/>
               <UserForm/>

@@ -11,43 +11,45 @@ function UserForm() {
 
     return (
 
-        <form className="userInput" id='form'>
+        <form className="userInput" id='form' action='./form'>
             <h2>Fill up form</h2>
             <div>
-                
-               
+                    <fieldset>
+                    <legend>Personal Info</legend>
                     <label>Your Fullname</label>
-                    <input type='text' maxLength="40"></input>
+                    <input type='text' maxLength="40" name='name' required></input>
 
                     <label>Your Contact</label>
                     <input type="tel" name='contactNumber' placeholder='Enter Contact Number' maxLength="11" required></input>
-
-                    <label>Pick Up Date</label>
-                    <input type="date" id="calendar" name="pickupDate" min={today} max={maxDate(2)}></input>
-
-                    <label>Return Date</label>
-                    <input type="date" id="calendar" name="returnDate" min={today} max={maxDate(4)}></input>
-                
-
-                
-            
-                
-                    <label>Self Drive or With Driver</label>
-                    <select>
-                        <option>Self Drive</option>
-                        <option>With Driver</option>
-                    </select>
-
-
                     <label>License</label>
-                    <select>
+                    
+                    <select name='licenseType'>
                         <option>Non-Professional</option>
                         <option>Professional</option>
                         <option>International</option>
                     </select>
 
+                    </fieldset>
+
+                
+            
+                <fieldset>
+                    <legend>Preference</legend>
+                    <label>Pick Up Date</label>
+                    <input type="date" id="calendar" name="pickupDate" min={today} max={maxDate(2)} required></input>
+                    <label>Return Date</label>
+                    <input type="date" id="calendar" name="returnDate" min={today} max={maxDate(4)} required></input>
+                    <label>Self Drive or With Driver</label>
+                    <select name="prefDrive">
+                        <option >Self Drive</option>
+                        <option>With Driver</option>
+                    </select>
+
+
+
+
                     <label>Car Type</label>
-                    <select>
+                    <select name='carType'>
                         <option>Sedan</option>
                         <option>SUV</option>
                         <option>Sport</option>
@@ -56,13 +58,15 @@ function UserForm() {
                     </select>
 
                     <label>Pickup Or Delivery</label>
-                    <select>
+                    <select name="pickupORdelivery">
                         <option>Pick up</option>
                         <option>Delivery</option>
                     </select>
+                    </fieldset>
+
             </div>
         
-                <button type="submit" disabled>SUBMIT</button>
+                <input type='submit'/>
             
             
 
